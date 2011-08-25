@@ -1,0 +1,10 @@
+C:\Users\wangchj\Desktop\RDF_LBS_Sim\QueryEvaluatorKnn\bin\Release\QueryEvaluatorKnn.dll
+C:\Users\wangchj\Desktop\RDF_LBS_Sim\QueryEvaluatorKnn\bin\Release\QueryEvaluatorKnn.pdb
+C:\Users\wangchj\Desktop\RDF_LBS_Sim\QueryEvaluatorKnn\bin\Release\HilbertTransform.exe
+C:\Users\wangchj\Desktop\RDF_LBS_Sim\QueryEvaluatorKnn\bin\Release\RTree.dll
+C:\Users\wangchj\Desktop\RDF_LBS_Sim\QueryEvaluatorKnn\bin\Release\log4net.dll
+C:\Users\wangchj\Desktop\RDF_LBS_Sim\QueryEvaluatorKnn\bin\Release\HilbertTransform.pdb
+C:\Users\wangchj\Desktop\RDF_LBS_Sim\QueryEvaluatorKnn\bin\Release\RTree.pdb
+C:\Users\wangchj\Desktop\RDF_LBS_Sim\QueryEvaluatorKnn\obj\Release\ResolveAssemblyReference.cache
+C:\Users\wangchj\Desktop\RDF_LBS_Sim\QueryEvaluatorKnn\obj\Release\QueryEvaluatorKnn.dll
+C:\Users\wangchj\Desktop\RDF_LBS_Sim\QueryEvaluatorKnn\obj\Release\QueryEvaluatorKnn.pdb

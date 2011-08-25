@@ -1,0 +1,7 @@
+C:\Users\wangchj\Desktop\RDF_LBS_Sim\NN-MBR\Test MBR\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\wangchj\Desktop\RDF_LBS_Sim\NN-MBR\Test MBR\bin\Debug\Test MBR.exe
+C:\Users\wangchj\Desktop\RDF_LBS_Sim\NN-MBR\Test MBR\bin\Debug\Test MBR.pdb
+C:\Users\wangchj\Desktop\RDF_LBS_Sim\NN-MBR\Test MBR\bin\Debug\NN-MBR.dll
+C:\Users\wangchj\Desktop\RDF_LBS_Sim\NN-MBR\Test MBR\bin\Debug\NN-MBR.pdb
+C:\Users\wangchj\Desktop\RDF_LBS_Sim\NN-MBR\Test MBR\obj\x86\Debug\Test MBR.exe
+C:\Users\wangchj\Desktop\RDF_LBS_Sim\NN-MBR\Test MBR\obj\x86\Debug\Test MBR.pdb

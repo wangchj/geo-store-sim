@@ -1,0 +1,716 @@
+﻿<ConversionLog>
+    <Settings>
+        <Setting
+            Name = "LogFile"
+            Value = "R+tree.xml"
+        />
+        <Setting
+            Name = "ProjectName"
+            Value = "R+tree"
+        />
+        <Setting
+            Name = "StartTime"
+            Value = "Friday, May 27, 2011 10:05:14"
+        />
+        <Setting
+            Name = "OutputDir"
+            Value = "C:\Users\Mobile1\Downloads\Java R+ tree\R+tree.NET"
+        />
+        <Setting
+            Name = "ProjectPath"
+            Value = "C:\Users\Mobile1\Downloads\Java R+ tree"
+        />
+    </Settings>
+    <Root>
+        <File
+            OldPath = "C:\Users\Mobile1\Downloads\Java R+ tree\AboutDialog.java"
+            NewPath = "C:\Users\Mobile1\Downloads\Java R+ tree\R+tree.NET\AboutDialog.cs"
+        >
+            <Class Name = "AboutDialog" >
+                <Section Name = "AboutDialog(java.awt.Frame,boolean)" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtDialogDialog_javaawtFrame_boolean"
+                        Severity = "2"
+                    >Constructor 'java.awt.Dialog.Dialog' was converted to 'SupportClass.DialogSupport.SetDialog' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "Compile"
+                        Number = "1000"
+                        LinkKeywordParam = "_javaawtContainersetLayout_javaawtLayoutManager"
+                        Severity = "1"
+                    >Method 'java.awt.Container.setLayout' was not converted.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtComponentsetSize_int_int"
+                        Severity = "2"
+                    >Method 'java.awt.Component.setSize' was converted to 'System.Windows.Forms.Control.Size' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                </Section>
+                <Section Name = "addNotify()" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtComponentsetLocation_javaawtPoint"
+                        Severity = "2"
+                    >Method 'java.awt.Component.setLocation' was converted to 'System.Windows.Forms.Control.Location' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "Compile"
+                        Number = "1000"
+                        LinkKeywordParam = "_javaawtDialogaddNotify"
+                        Severity = "1"
+                    >Method 'java.awt.Dialog.addNotify' was not converted.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtComponentsetSize_int_int"
+                        Severity = "2"
+                    >Method 'java.awt.Component.setSize' was converted to 'System.Windows.Forms.Control.Size' which has a different behavior.</Issue>
+                </Section>
+                <Section Name = "show()" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtComponentmove_int_int"
+                        Severity = "2"
+                    >Method 'java.awt.Component.move' was converted to 'System.Windows.Forms.Control.Location' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtDialogshow"
+                        Severity = "2"
+                    >Method 'java.awt.Dialog.show' was converted to 'System.Windows.Forms.Form.ShowDialog' which has a different behavior.</Issue>
+                </Section>
+            </Class>
+            <Class Name = "AboutDialog.SymAction" >
+                <Section Name = "Declarations" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtFrame"
+                        Severity = "2"
+                    >Class 'java.awt.Frame' was converted to 'System.Windows.Forms.Form' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtFrame"
+                        Severity = "2"
+                    >Class 'java.awt.Frame' was converted to 'System.Windows.Forms.Form' which has a different behavior.</Issue>
+                </Section>
+            </Class>
+        </File>
+        <File
+            OldPath = "C:\Users\Mobile1\Downloads\Java R+ tree\CELL.java"
+            NewPath = "C:\Users\Mobile1\Downloads\Java R+ tree\R+tree.NET\CELL.cs"
+        />
+        <File
+            OldPath = "C:\Users\Mobile1\Downloads\Java R+ tree\Cut_info.java"
+            NewPath = "C:\Users\Mobile1\Downloads\Java R+ tree\R+tree.NET\Cut_info.cs"
+        />
+        <File
+            OldPath = "C:\Users\Mobile1\Downloads\Java R+ tree\Frame1.java"
+            NewPath = "C:\Users\Mobile1\Downloads\Java R+ tree\R+tree.NET\Frame1.cs"
+        >
+            <Class Name = "Frame1" >
+                <Section Name = "Frame1()" >
+                    <Issue
+                        Type = "Compile"
+                        Number = "1000"
+                        LinkKeywordParam = "_javaawtContainersetLayout_javaawtLayoutManager"
+                        Severity = "1"
+                    >Method 'java.awt.Container.setLayout' was not converted.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtComponentsetVisible_boolean"
+                        Severity = "2"
+                    >Method 'java.awt.Component.setVisible' was converted to 'System.Windows.Forms.Control.Visible' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1135"
+                        Severity = "2"
+                    >'System.Windows.Forms.Application.Run' must be called to start a main form.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtComponentsetSize_int_int"
+                        Severity = "2"
+                    >Method 'java.awt.Component.setSize' was converted to 'System.Windows.Forms.Control.Size' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtColorColor_int"
+                        Severity = "2"
+                    >Constructor 'java.awt.Color.Color' was converted to 'System.Drawing.Color.FromArgb' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "Compile"
+                        Number = "1000"
+                        LinkKeywordParam = "_javaawtFileDialogsetMode_int"
+                        Severity = "1"
+                    >Method 'java.awt.FileDialog.setMode' was not converted.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtColorColor_int"
+                        Severity = "2"
+                    >Constructor 'java.awt.Color.Color' was converted to 'System.Drawing.Color.FromArgb' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtColorColor_int"
+                        Severity = "2"
+                    >Constructor 'java.awt.Color.Color' was converted to 'System.Drawing.Color.FromArgb' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtColorColor_int"
+                        Severity = "2"
+                    >Constructor 'java.awt.Color.Color' was converted to 'System.Drawing.Color.FromArgb' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtColorColor_int"
+                        Severity = "2"
+                    >Constructor 'java.awt.Color.Color' was converted to 'System.Drawing.Color.FromArgb' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtColorColor_int"
+                        Severity = "2"
+                    >Constructor 'java.awt.Color.Color' was converted to 'System.Drawing.Color.FromArgb' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1043"
+                        Severity = "2"
+                    >The equivalent in .NET for field 'java.awt.TextArea.SCROLLBARS_VERTICAL_ONLY' may return a different value.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "Compile"
+                        Number = "1186"
+                        Severity = "2"
+                    >Class hierarchy differences between 'java.awt.Panel' and 'System.Windows.Forms.Panel' may cause compilation errors.</Issue>
+                    <Issue
+                        Type = "Compile"
+                        Number = "1000"
+                        LinkKeywordParam = "_javaawtContainersetLayout_javaawtLayoutManager"
+                        Severity = "1"
+                    >Method 'java.awt.Container.setLayout' was not converted.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "Compile"
+                        Number = "1000"
+                        LinkKeywordParam = "_javaawtMenuBarsetHelpMenu_javaawtMenu"
+                        Severity = "1"
+                    >Method 'java.awt.MenuBar.setHelpMenu' was not converted.</Issue>
+                </Section>
+                <Section Name = "show()" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtComponentmove_int_int"
+                        Severity = "2"
+                    >Method 'java.awt.Component.move' was converted to 'System.Windows.Forms.Control.Location' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1135"
+                        Severity = "2"
+                    >'System.Windows.Forms.Application.Run' must be called to start a main form.</Issue>
+                </Section>
+                <Section Name = "main(java.lang.String[])" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1135"
+                        Severity = "2"
+                    >'System.Windows.Forms.Application.Run' must be called to start a main form.</Issue>
+                </Section>
+                <Section Name = "addNotify()" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtComponentsetLocation_javaawtPoint"
+                        Severity = "2"
+                    >Method 'java.awt.Component.setLocation' was converted to 'System.Windows.Forms.Control.Location' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "Compile"
+                        Number = "1000"
+                        LinkKeywordParam = "_javaawtFrameaddNotify"
+                        Severity = "1"
+                    >Method 'java.awt.Frame.addNotify' was not converted.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtComponentsetSize_int_int"
+                        Severity = "2"
+                    >Method 'java.awt.Component.setSize' was converted to 'System.Windows.Forms.Control.Size' which has a different behavior.</Issue>
+                </Section>
+            </Class>
+            <Class Name = "Frame1.SymAction" >
+                <Section Name = "miAbout_Action(java.awt.event.ActionEvent)" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtDialogshow"
+                        Severity = "2"
+                    >Method 'java.awt.Dialog.show' was converted to 'System.Windows.Forms.Form.ShowDialog' which has a different behavior.</Issue>
+                </Section>
+                <Section Name = "miExit_Action(java.awt.event.ActionEvent)" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtDialogshow"
+                        Severity = "2"
+                    >Method 'java.awt.Dialog.show' was converted to 'System.Windows.Forms.Form.ShowDialog' which has a different behavior.</Issue>
+                </Section>
+            </Class>
+            <Class Name = "Frame1.SymMouse" >
+                <Section Name = "button1_MousePress(java.awt.event.MouseEvent)" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1043"
+                        Severity = "2"
+                    >The equivalent in .NET for method 'java.lang.Float.floatValue' may return a different value.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1043"
+                        Severity = "2"
+                    >The equivalent in .NET for method 'java.lang.Float.floatValue' may return a different value.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1043"
+                        Severity = "2"
+                    >The equivalent in .NET for method 'java.lang.Float.floatValue' may return a different value.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1043"
+                        Severity = "2"
+                    >The equivalent in .NET for method 'java.lang.Float.floatValue' may return a different value.</Issue>
+                </Section>
+                <Section Name = "button3_MousePress(java.awt.event.MouseEvent)" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1043"
+                        Severity = "2"
+                    >The equivalent in .NET for method 'java.lang.Float.floatValue' may return a different value.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1043"
+                        Severity = "2"
+                    >The equivalent in .NET for method 'java.lang.Float.floatValue' may return a different value.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1043"
+                        Severity = "2"
+                    >The equivalent in .NET for method 'java.lang.Float.floatValue' may return a different value.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1043"
+                        Severity = "2"
+                    >The equivalent in .NET for method 'java.lang.Float.floatValue' may return a different value.</Issue>
+                </Section>
+                <Section Name = "draw_child(RECT,int)" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1043"
+                        Severity = "2"
+                    >The equivalent in .NET for method 'java.lang.Float.floatValue' may return a different value.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtColorColor_int"
+                        Severity = "2"
+                    >Constructor 'java.awt.Color.Color' was converted to 'System.Drawing.Color.FromArgb' which has a different behavior.</Issue>
+                </Section>
+                <Section Name = "draw_node(RECT,int)" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1043"
+                        Severity = "2"
+                    >The equivalent in .NET for method 'java.lang.Float.floatValue' may return a different value.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtColorColor_int"
+                        Severity = "2"
+                    >Constructor 'java.awt.Color.Color' was converted to 'System.Drawing.Color.FromArgb' which has a different behavior.</Issue>
+                </Section>
+                <Section Name = "redraw()" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtComponentrepaint"
+                        Severity = "2"
+                    >Method 'java.awt.Component.repaint' was converted to 'System.Windows.Forms.Control.Refresh' which has a different behavior.</Issue>
+                </Section>
+                <Section Name = "Declarations" >
+                    <Issue
+                        Type = "Compile"
+                        Number = "1186"
+                        Severity = "2"
+                    >Class hierarchy differences between 'java.awt.FileDialog' and 'System.Windows.Forms.FileDialog' may cause compilation errors.</Issue>
+                    <Issue
+                        Type = "Compile"
+                        Number = "1186"
+                        Severity = "2"
+                    >Class hierarchy differences between 'java.awt.Panel' and 'System.Windows.Forms.Panel' may cause compilation errors.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtFrame"
+                        Severity = "2"
+                    >Class 'java.awt.Frame' was converted to 'System.Windows.Forms.Form' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'symantec.itools.awt.ImagePanel' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'symantec.itools.awt.shape.Rect' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                </Section>
+            </Class>
+        </File>
+        <File
+            OldPath = "C:\Users\Mobile1\Downloads\Java R+ tree\LIST.java"
+            NewPath = "C:\Users\Mobile1\Downloads\Java R+ tree\R+tree.NET\LIST.cs"
+        />
+        <File
+            OldPath = "C:\Users\Mobile1\Downloads\Java R+ tree\MBR.java"
+            NewPath = "C:\Users\Mobile1\Downloads\Java R+ tree\R+tree.NET\MBR.cs"
+        />
+        <File
+            OldPath = "C:\Users\Mobile1\Downloads\Java R+ tree\node.java"
+            NewPath = "C:\Users\Mobile1\Downloads\Java R+ tree\R+tree.NET\node.cs"
+        />
+        <File
+            OldPath = "C:\Users\Mobile1\Downloads\Java R+ tree\Partition_info.java"
+            NewPath = "C:\Users\Mobile1\Downloads\Java R+ tree\R+tree.NET\Partition_info.cs"
+        />
+        <File
+            OldPath = "C:\Users\Mobile1\Downloads\Java R+ tree\QuitDialog.java"
+            NewPath = "C:\Users\Mobile1\Downloads\Java R+ tree\R+tree.NET\QuitDialog.cs"
+        >
+            <Class Name = "QuitDialog" >
+                <Section Name = "QuitDialog(java.awt.Frame,boolean)" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtDialogDialog_javaawtFrame_boolean"
+                        Severity = "2"
+                    >Constructor 'java.awt.Dialog.Dialog' was converted to 'SupportClass.DialogSupport.SetDialog' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "Compile"
+                        Number = "1000"
+                        LinkKeywordParam = "_javaawtContainersetLayout_javaawtLayoutManager"
+                        Severity = "1"
+                    >Method 'java.awt.Container.setLayout' was not converted.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtComponentsetSize_int_int"
+                        Severity = "2"
+                    >Method 'java.awt.Component.setSize' was converted to 'System.Windows.Forms.Control.Size' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1043"
+                        Severity = "2"
+                    >The equivalent in .NET for field 'java.awt.Label.CENTER' may return a different value.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                </Section>
+                <Section Name = "addNotify()" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtComponentsetLocation_javaawtPoint"
+                        Severity = "2"
+                    >Method 'java.awt.Component.setLocation' was converted to 'System.Windows.Forms.Control.Location' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "Compile"
+                        Number = "1000"
+                        LinkKeywordParam = "_javaawtDialogaddNotify"
+                        Severity = "1"
+                    >Method 'java.awt.Dialog.addNotify' was not converted.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtComponentsetSize_int_int"
+                        Severity = "2"
+                    >Method 'java.awt.Component.setSize' was converted to 'System.Windows.Forms.Control.Size' which has a different behavior.</Issue>
+                </Section>
+                <Section Name = "show()" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtComponentmove_int_int"
+                        Severity = "2"
+                    >Method 'java.awt.Component.move' was converted to 'System.Windows.Forms.Control.Location' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtDialogshow"
+                        Severity = "2"
+                    >Method 'java.awt.Dialog.show' was converted to 'System.Windows.Forms.Form.ShowDialog' which has a different behavior.</Issue>
+                </Section>
+            </Class>
+            <Class Name = "QuitDialog.SymAction" >
+                <Section Name = "yesButton_Clicked(java.awt.event.ActionEvent)" >
+                    <Issue
+                        Type = "Compile"
+                        Number = "1000"
+                        LinkKeywordParam = "_javaawtEventQueue"
+                        Severity = "1"
+                    >Method 'java.awt.EventQueue.postEvent' was not converted.</Issue>
+                    <Issue
+                        Type = "Compile"
+                        Number = "1000"
+                        LinkKeywordParam = "_javaawtToolkit"
+                        Severity = "1"
+                    >Method 'java.awt.Toolkit.getSystemEventQueue' was not converted.</Issue>
+                    <Issue
+                        Type = "Compile"
+                        Number = "1000"
+                        LinkKeywordParam = "_javaawtToolkit"
+                        Severity = "1"
+                    >Method 'java.awt.Toolkit.getDefaultToolkit' was not converted.</Issue>
+                </Section>
+                <Section Name = "Declarations" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtFrame"
+                        Severity = "2"
+                    >Class 'java.awt.Frame' was converted to 'System.Windows.Forms.Form' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtFrame"
+                        Severity = "2"
+                    >Class 'java.awt.Frame' was converted to 'System.Windows.Forms.Form' which has a different behavior.</Issue>
+                </Section>
+            </Class>
+        </File>
+        <File
+            OldPath = "C:\Users\Mobile1\Downloads\Java R+ tree\RECT.java"
+            NewPath = "C:\Users\Mobile1\Downloads\Java R+ tree\R+tree.NET\RECT.cs"
+        >
+            <Class Name = "RECT" >
+                <Section Name = "RECT()" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1092"
+                        Severity = "2"
+                    >The differences in the expected value  of parameters for constructor 'java.util.Random.Random'  may cause compilation errors. </Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        Severity = "2"
+                    >Method 'java.util.Random.nextInt' was converted to 'System.Random.Next' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        Severity = "2"
+                    >Method 'java.util.Random.nextInt' was converted to 'System.Random.Next' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        Severity = "2"
+                    >Method 'java.util.Random.nextInt' was converted to 'System.Random.Next' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        Severity = "2"
+                    >Method 'java.util.Random.nextInt' was converted to 'System.Random.Next' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        Severity = "2"
+                    >Method 'java.util.Random.nextInt' was converted to 'System.Random.Next' which has a different behavior.</Issue>
+                </Section>
+            </Class>
+        </File>
+        <File
+            OldPath = "C:\Users\Mobile1\Downloads\Java R+ tree\RPlus.java"
+            NewPath = "C:\Users\Mobile1\Downloads\Java R+ tree\R+tree.NET\RPlus.cs"
+        />
+        <File
+            OldPath = "C:\Users\Mobile1\Downloads\Java R+ tree\Split_info.java"
+            NewPath = "C:\Users\Mobile1\Downloads\Java R+ tree\R+tree.NET\Split_info.cs"
+        />
+        <File
+            OldPath = "C:\Users\Mobile1\Downloads\Java R+ tree\TEST.java"
+            NewPath = "C:\Users\Mobile1\Downloads\Java R+ tree\R+tree.NET\TEST.cs"
+        />
+        <File
+            OldPath = "C:\Users\Mobile1\Downloads\Java R+ tree\TEST2.java"
+            NewPath = "C:\Users\Mobile1\Downloads\Java R+ tree\R+tree.NET\TEST2.cs"
+        >
+            <Class Name = "TEST2" >
+                <Section Name = "main(java.lang.String[])" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        Severity = "2"
+                    >Constructor 'java.io.FileReader.FileReader' was converted to 'System.IO.StreamReader' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1092"
+                        Severity = "2"
+                    >The differences in the expected value  of parameters for constructor 'java.io.BufferedReader.BufferedReader'  may cause compilation errors. </Issue>
+                </Section>
+                <Section Name = "Declarations" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'java.util.Scanner' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                </Section>
+            </Class>
+        </File>
+        <Issue
+            Type = "Global Warning"
+            Number = "1223"
+            Severity = "3"
+        >Output of bidirectional languages will not display as expected.</Issue>
+        <Issue
+            Type = "Global Warning"
+            Number = "1264"
+            Severity = "2"
+        >Events behave differently in the .NET Framework.</Issue>
+        <Issue
+            Type = "Global Warning"
+            Number = "1274"
+            Severity = "2"
+        >Interaction between members of a class may differ because their execution sequence is different. </Issue>
+    </Root>
+</ConversionLog>
+

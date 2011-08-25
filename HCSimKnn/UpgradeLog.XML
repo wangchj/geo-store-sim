@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="HCSimKnn">
+</Property><Property Name="Solution File" Value="C:\Users\wangchj\Desktop\RDF_LBS_Sim\HCSimKnn\HCSimKnn.sln">
+</Property><Property Name="Date" Value="Saturday, May 14, 2011">
+</Property><Property Name="Time" Value="14:01 PM">
+</Property></Properties><Event ErrorLevel="0" Project="HCSimKnn" Source="HCSim\HCSimKnn.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="HCSimKnn" Source="HCSim\HCSimKnn.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="RTree" Source="..\RTree\RTree\RTree.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="RTree" Source="..\RTree\RTree\RTree.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="HilbertTransform" Source="..\..\..\Documents\Visual Studio 2008\Projects\HilbertTransform\HilbertTransform\HilbertTransform.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="HilbertTransform" Source="..\..\..\Documents\Visual Studio 2008\Projects\HilbertTransform\HilbertTransform\HilbertTransform.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="QueryEvaluatorKnn" Source="..\QueryEvaluatorKnn\QueryEvaluatorKnn.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="QueryEvaluatorKnn" Source="..\QueryEvaluatorKnn\QueryEvaluatorKnn.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="HCSimKnn.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="HCSimKnn.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="HCSimKnn" Source="HCSim\HCSimKnn.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

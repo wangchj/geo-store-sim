@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="HCSim">
+</Property><Property Name="Solution File" Value="C:\Users\wangchj\Desktop\RDF_LBS_Sim\HCSim\HCSim.sln">
+</Property><Property Name="Date" Value="Saturday, May 14, 2011">
+</Property><Property Name="Time" Value="13:20 PM">
+</Property></Properties><Event ErrorLevel="0" Project="HCSim" Source="HCSim\HCSim.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="HCSim" Source="HCSim\HCSim.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="QueryEvaluator" Source="..\QueryEvaluator\QueryEvaluator.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="QueryEvaluator" Source="..\QueryEvaluator\QueryEvaluator.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="RTree" Source="..\RTree\RTree\RTree.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="RTree" Source="..\RTree\RTree\RTree.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="2" Project="HilbertTransform" Source="..\..\..\Documents\Visual Studio 2008\Projects\HilbertTransform\HilbertTransform\HilbertTransform.csproj" Description="Unable to open project file to perform upgrade.  ">
+</Event><Event ErrorLevel="0" Project="QueryEvaluatorTest" Source="..\QueryEvaluatorTest\QueryEvaluatorTest.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="QueryEvaluatorTest" Source="..\QueryEvaluatorTest\QueryEvaluatorTest.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="HCSim.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="HCSim.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="HCSim" Source="HCSim\HCSim.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="QueryEvaluator" Source="..\QueryEvaluator\QueryEvaluator.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="3" Project="" Source="HCSim.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="HCSim.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="LocalTestRun.testrunconfig" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LocalTestRun.testrunconfig" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="0" Project="QueryEvaluatorTest" Source="..\QueryEvaluatorTest\QueryEvaluatorTest.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

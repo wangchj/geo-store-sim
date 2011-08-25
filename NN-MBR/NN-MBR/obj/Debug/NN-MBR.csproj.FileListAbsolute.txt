@@ -1,0 +1,15 @@
+c:\users\napkin\documents\visual studio 2010\Projects\NN-MBR\NN-MBR\obj\Debug\ResolveAssemblyReference.cache
+c:\users\napkin\documents\visual studio 2010\Projects\NN-MBR\NN-MBR\bin\Debug\NN-MBR.dll
+c:\users\napkin\documents\visual studio 2010\Projects\NN-MBR\NN-MBR\bin\Debug\NN-MBR.pdb
+c:\users\napkin\documents\visual studio 2010\Projects\NN-MBR\NN-MBR\obj\Debug\NN-MBR.dll
+c:\users\napkin\documents\visual studio 2010\Projects\NN-MBR\NN-MBR\obj\Debug\NN-MBR.pdb
+C:\Users\wangchj\Desktop\RDF_LBS_Sim\NN-MBR\NN-MBR\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\wangchj\Desktop\RDF_LBS_Sim\NN-MBR\NN-MBR\obj\Debug\NN-MBR.dll
+C:\Users\wangchj\Desktop\RDF_LBS_Sim\NN-MBR\NN-MBR\obj\Debug\NN-MBR.pdb
+C:\Users\wangchj\Desktop\RDF_LBS_Sim\NN-MBR\NN-MBR\bin\Debug\NN-MBR.dll
+C:\Users\wangchj\Desktop\RDF_LBS_Sim\NN-MBR\NN-MBR\bin\Debug\NN-MBR.pdb
+\\sage\homes\Desktop\RDF_LBS_Sim\NN-MBR\NN-MBR\bin\Debug\NN-MBR.dll
+\\sage\homes\Desktop\RDF_LBS_Sim\NN-MBR\NN-MBR\bin\Debug\NN-MBR.pdb
+\\sage\homes\Desktop\RDF_LBS_Sim\NN-MBR\NN-MBR\obj\Debug\ResolveAssemblyReference.cache
+\\sage\homes\Desktop\RDF_LBS_Sim\NN-MBR\NN-MBR\obj\Debug\NN-MBR.dll
+\\sage\homes\Desktop\RDF_LBS_Sim\NN-MBR\NN-MBR\obj\Debug\NN-MBR.pdb

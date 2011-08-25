@@ -1,0 +1,441 @@
+﻿<html>
+	<head>
+		<META HTTP-EQUIV="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="_ConversionReport_Files\ConversionReport.css">
+		<title>R+tree Conversion Report</title>
+		
+		<script language="javascript">
+		   var oMe;    
+			function outliner () {
+				oMe = window.event.srcElement
+				//get child element
+				var child = document.all[event.srcElement.getAttribute("child",false)];
+				//if child element exists, expand or collapse it.
+				if (null != child)
+					child.className = child.className == "collapsed" ? "expanded" : "collapsed";
+			}
+		
+			function changepic() {
+		       if (oMe.tagName!="IMG") { 
+		           oMe =oMe.children[0];
+		           }
+				var check = oMe.src.toLowerCase();
+				if (check.lastIndexOf("conversionreport_plus.gif") != -1)		{
+					oMe.src = "_ConversionReport_Files/ConversionReport_Minus.gif"		}
+				else
+				{
+					oMe.src = "_ConversionReport_Files/ConversionReport_Plus.gif"
+				}
+			}
+		</script>
+		
+	</head>
+	<body topmargin="0" leftmargin="0" rightmargin="0" onclick="outliner();">
+		<h1>Conversion Report for R+tree</h1>
+		
+		<p><span class="note">
+		<b>Time of Conversion:  </b>5/27/2011 10:07 AM<br>
+		<b>Total Time Spent:  </b>00:02:06<br>
+		</span></p>
+		
+		<h2>List of Project Files</h2>
+		<table cellpadding="2" cellspacing="0" width="98%" border="1" bordercolor="white" class="infotable">
+			<tr>
+				<td nowrap class="header">New Filename</td>
+				<td nowrap class="header">Original Filename</td>
+				<td nowrap class="header">Status</td>
+				<td nowrap class="header">Errors</td>
+				<td nowrap class="header">Warnings</td>
+				<td nowrap class="header">Total Issues</td>
+			</tr>
+		<tr class="row">
+			<td class="content"><a href="javascript:changepic();" child="Globals"><IMG border=0 alt="expand/collapse section" class="expandable" height="11" src="_ConversionReport_Files/ConversionReport_Plus.gif" width="9" child="Globals"></a>&nbsp;(Global Issues)</td>
+			<td class="content"></td>
+			<td class="content"></td>
+			<td class="content">0</td>
+			<td class="content">3</td>
+			<td class="content">3</td>
+		</tr>
+			<tr class="collapsed" id="Globals" bgcolor="#ffffff"><td colspan="7">
+			<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="4" class="content">Global conversion issues:</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">Global Warning</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1264'>Events behave differently in the .NET Framework.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">Global Warning</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1274'>Interaction between members of a class may differ because their execution sequence is different. </a></td></tr>
+						<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" width="15%">Global Warning</td><td class="issuecontent" width="5%">3</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1223'>Output of bidirectional languages will not display as expected.</a></td></tr>
+				</table></td></tr>
+			</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><a href="javascript:changepic();" child="issue0"><IMG border=0 alt="expand/collapse section" class="expandable" height="11" src="_ConversionReport_Files/ConversionReport_Plus.gif" width="9" child="issue0"></a>&nbsp;AboutDialog.cs</td>
+			<td class="content">AboutDialog.java</td>
+			<td class="content">
+		Converted with issues</td>	<td class="content">12</td>
+			<td class="content">0</td>
+			<td class="content">12</td>
+		</tr>
+			<tr class="collapsed" id="issue0" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="4" class="content">Conversion Issues for AboutDialog.AboutDialog(java.awt.Frame,boolean):</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtDialogDialog_javaawtFrame_boolean'>Constructor 'java.awt.Dialog.Dialog' was converted to 'SupportClass.DialogSupport.SetDialog' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtComponentsetSize_int_int'>Method 'java.awt.Component.setSize' was converted to 'System.Windows.Forms.Control.Size' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">5</td><td class="issuecontent" width="15%">Compile Error</td><td class="issuecontent" width="5%">1</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1000_javaawtContainersetLayout_javaawtLayoutManager'>Method 'java.awt.Container.setLayout' was not converted.</a></td></tr>
+				</table></td></tr>
+				<tr><td colspan="4" class="content">Conversion Issues for AboutDialog.addNotify():</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtComponentsetLocation_javaawtPoint'>Method 'java.awt.Component.setLocation' was converted to 'System.Windows.Forms.Control.Location' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtComponentsetSize_int_int'>Method 'java.awt.Component.setSize' was converted to 'System.Windows.Forms.Control.Size' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" width="15%">Compile Error</td><td class="issuecontent" width="5%">1</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1000_javaawtDialogaddNotify'>Method 'java.awt.Dialog.addNotify' was not converted.</a></td></tr>
+				</table></td></tr>
+				<tr><td colspan="4" class="content">Conversion Issues for AboutDialog.show():</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtComponentmove_int_int'>Method 'java.awt.Component.move' was converted to 'System.Windows.Forms.Control.Location' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtDialogshow'>Method 'java.awt.Dialog.show' was converted to 'System.Windows.Forms.Form.ShowDialog' which has a different behavior.</a></td></tr>
+				</table></td></tr>
+				</table>
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="4" class="content">Conversion Issues for AboutDialog.SymAction.Declarations:</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtFrame'>Class 'java.awt.Frame' was converted to 'System.Windows.Forms.Form' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtFrame'>Class 'java.awt.Frame' was converted to 'System.Windows.Forms.Form' which has a different behavior.</a></td></tr>
+				</table></td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+		   <td class="content"><IMG alt="expand/collapse section" height="11" src="_ConversionReport_Files/ConversionReport_Blank.gif" width="9">&nbsp;CELL.cs</td>
+			<td class="content">CELL.java</td>
+			<td class="content">
+		Converted</td>	<td class="content">0</td>
+			<td class="content">0</td>
+			<td class="content">0</td>
+		</tr>
+			<tr class="collapsed" id="issue1" bgcolor="#ffffff"><td colspan="7">
+			</td></tr>
+		<tr class="row">
+		   <td class="content"><IMG alt="expand/collapse section" height="11" src="_ConversionReport_Files/ConversionReport_Blank.gif" width="9">&nbsp;Cut_info.cs</td>
+			<td class="content">Cut_info.java</td>
+			<td class="content">
+		Converted</td>	<td class="content">0</td>
+			<td class="content">0</td>
+			<td class="content">0</td>
+		</tr>
+			<tr class="collapsed" id="issue2" bgcolor="#ffffff"><td colspan="7">
+			</td></tr>
+		<tr class="row">
+			<td class="content"><a href="javascript:changepic();" child="issue3"><IMG border=0 alt="expand/collapse section" class="expandable" height="11" src="_ConversionReport_Files/ConversionReport_Plus.gif" width="9" child="issue3"></a>&nbsp;Frame1.cs</td>
+			<td class="content">Frame1.java</td>
+			<td class="content">
+		Converted with issues</td>	<td class="content">58</td>
+			<td class="content">0</td>
+			<td class="content">58</td>
+		</tr>
+			<tr class="collapsed" id="issue3" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="4" class="content">Conversion Issues for Frame1.Frame1():</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1043'>The equivalent in .NET for field 'java.awt.TextArea.SCROLLBARS_VERTICAL_ONLY' may return a different value.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtComponentsetVisible_boolean'>Method 'java.awt.Component.setVisible' was converted to 'System.Windows.Forms.Control.Visible' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtComponentsetSize_int_int'>Method 'java.awt.Component.setSize' was converted to 'System.Windows.Forms.Control.Size' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtColorColor_int'>Constructor 'java.awt.Color.Color' was converted to 'System.Drawing.Color.FromArgb' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">5</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtColorColor_int'>Constructor 'java.awt.Color.Color' was converted to 'System.Drawing.Color.FromArgb' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">6</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">7</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtColorColor_int'>Constructor 'java.awt.Color.Color' was converted to 'System.Drawing.Color.FromArgb' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">8</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">9</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtColorColor_int'>Constructor 'java.awt.Color.Color' was converted to 'System.Drawing.Color.FromArgb' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">10</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">11</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtColorColor_int'>Constructor 'java.awt.Color.Color' was converted to 'System.Drawing.Color.FromArgb' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">12</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">13</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtColorColor_int'>Constructor 'java.awt.Color.Color' was converted to 'System.Drawing.Color.FromArgb' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">14</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">15</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">16</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">17</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">18</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">19</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">20</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">21</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">22</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">23</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">24</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">25</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">26</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">27</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1135'>'System.Windows.Forms.Application.Run' must be called to start a main form.</a></td></tr>
+						<tr><td width="10" class="issuecontent">28</td><td class="issuecontent" width="15%">Compile Error</td><td class="issuecontent" width="5%">1</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1000_javaawtContainersetLayout_javaawtLayoutManager'>Method 'java.awt.Container.setLayout' was not converted.</a></td></tr>
+						<tr><td width="10" class="issuecontent">29</td><td class="issuecontent" width="15%">Compile Error</td><td class="issuecontent" width="5%">1</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1000_javaawtFileDialogsetMode_int'>Method 'java.awt.FileDialog.setMode' was not converted.</a></td></tr>
+						<tr><td width="10" class="issuecontent">30</td><td class="issuecontent" width="15%">Compile Error</td><td class="issuecontent" width="5%">1</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1000_javaawtContainersetLayout_javaawtLayoutManager'>Method 'java.awt.Container.setLayout' was not converted.</a></td></tr>
+						<tr><td width="10" class="issuecontent">31</td><td class="issuecontent" width="15%">Compile Error</td><td class="issuecontent" width="5%">1</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1000_javaawtMenuBarsetHelpMenu_javaawtMenu'>Method 'java.awt.MenuBar.setHelpMenu' was not converted.</a></td></tr>
+						<tr><td width="10" class="issuecontent">32</td><td class="issuecontent" width="15%">Compile Error</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1186'>Class hierarchy differences between 'java.awt.Panel' and 'System.Windows.Forms.Panel' may cause compilation errors.</a></td></tr>
+				</table></td></tr>
+				<tr><td colspan="4" class="content">Conversion Issues for Frame1.show():</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtComponentmove_int_int'>Method 'java.awt.Component.move' was converted to 'System.Windows.Forms.Control.Location' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1135'>'System.Windows.Forms.Application.Run' must be called to start a main form.</a></td></tr>
+				</table></td></tr>
+				<tr><td colspan="4" class="content">Conversion Issues for Frame1.main(java.lang.String[]):</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1135'>'System.Windows.Forms.Application.Run' must be called to start a main form.</a></td></tr>
+				</table></td></tr>
+				<tr><td colspan="4" class="content">Conversion Issues for Frame1.addNotify():</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtComponentsetLocation_javaawtPoint'>Method 'java.awt.Component.setLocation' was converted to 'System.Windows.Forms.Control.Location' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtComponentsetSize_int_int'>Method 'java.awt.Component.setSize' was converted to 'System.Windows.Forms.Control.Size' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" width="15%">Compile Error</td><td class="issuecontent" width="5%">1</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1000_javaawtFrameaddNotify'>Method 'java.awt.Frame.addNotify' was not converted.</a></td></tr>
+				</table></td></tr>
+				</table>
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="4" class="content">Conversion Issues for Frame1.SymAction.miAbout_Action(java.awt.event.ActionEvent):</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtDialogshow'>Method 'java.awt.Dialog.show' was converted to 'System.Windows.Forms.Form.ShowDialog' which has a different behavior.</a></td></tr>
+				</table></td></tr>
+				<tr><td colspan="4" class="content">Conversion Issues for Frame1.SymAction.miExit_Action(java.awt.event.ActionEvent):</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtDialogshow'>Method 'java.awt.Dialog.show' was converted to 'System.Windows.Forms.Form.ShowDialog' which has a different behavior.</a></td></tr>
+				</table></td></tr>
+				</table>
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="4" class="content">Conversion Issues for Frame1.SymMouse.button1_MousePress(java.awt.event.MouseEvent):</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1043'>The equivalent in .NET for method 'java.lang.Float.floatValue' may return a different value.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1043'>The equivalent in .NET for method 'java.lang.Float.floatValue' may return a different value.</a></td></tr>
+						<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1043'>The equivalent in .NET for method 'java.lang.Float.floatValue' may return a different value.</a></td></tr>
+						<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1043'>The equivalent in .NET for method 'java.lang.Float.floatValue' may return a different value.</a></td></tr>
+				</table></td></tr>
+				<tr><td colspan="4" class="content">Conversion Issues for Frame1.SymMouse.button3_MousePress(java.awt.event.MouseEvent):</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1043'>The equivalent in .NET for method 'java.lang.Float.floatValue' may return a different value.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1043'>The equivalent in .NET for method 'java.lang.Float.floatValue' may return a different value.</a></td></tr>
+						<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1043'>The equivalent in .NET for method 'java.lang.Float.floatValue' may return a different value.</a></td></tr>
+						<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1043'>The equivalent in .NET for method 'java.lang.Float.floatValue' may return a different value.</a></td></tr>
+				</table></td></tr>
+				<tr><td colspan="4" class="content">Conversion Issues for Frame1.SymMouse.draw_child(RECT,int):</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1043'>The equivalent in .NET for method 'java.lang.Float.floatValue' may return a different value.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtColorColor_int'>Constructor 'java.awt.Color.Color' was converted to 'System.Drawing.Color.FromArgb' which has a different behavior.</a></td></tr>
+				</table></td></tr>
+				<tr><td colspan="4" class="content">Conversion Issues for Frame1.SymMouse.draw_node(RECT,int):</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1043'>The equivalent in .NET for method 'java.lang.Float.floatValue' may return a different value.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtColorColor_int'>Constructor 'java.awt.Color.Color' was converted to 'System.Drawing.Color.FromArgb' which has a different behavior.</a></td></tr>
+				</table></td></tr>
+				<tr><td colspan="4" class="content">Conversion Issues for Frame1.SymMouse.redraw():</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtComponentrepaint'>Method 'java.awt.Component.repaint' was converted to 'System.Windows.Forms.Control.Refresh' which has a different behavior.</a></td></tr>
+				</table></td></tr>
+				<tr><td colspan="4" class="content">Conversion Issues for Frame1.SymMouse.Declarations:</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtFrame'>Class 'java.awt.Frame' was converted to 'System.Windows.Forms.Form' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'symantec.itools.awt.ImagePanel' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'symantec.itools.awt.shape.Rect' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" width="15%">Compile Error</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1186'>Class hierarchy differences between 'java.awt.FileDialog' and 'System.Windows.Forms.FileDialog' may cause compilation errors.</a></td></tr>
+						<tr><td width="10" class="issuecontent">5</td><td class="issuecontent" width="15%">Compile Error</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1186'>Class hierarchy differences between 'java.awt.Panel' and 'System.Windows.Forms.Panel' may cause compilation errors.</a></td></tr>
+				</table></td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+		   <td class="content"><IMG alt="expand/collapse section" height="11" src="_ConversionReport_Files/ConversionReport_Blank.gif" width="9">&nbsp;LIST.cs</td>
+			<td class="content">LIST.java</td>
+			<td class="content">
+		Converted</td>	<td class="content">0</td>
+			<td class="content">0</td>
+			<td class="content">0</td>
+		</tr>
+			<tr class="collapsed" id="issue4" bgcolor="#ffffff"><td colspan="7">
+			</td></tr>
+		<tr class="row">
+		   <td class="content"><IMG alt="expand/collapse section" height="11" src="_ConversionReport_Files/ConversionReport_Blank.gif" width="9">&nbsp;MBR.cs</td>
+			<td class="content">MBR.java</td>
+			<td class="content">
+		Converted</td>	<td class="content">0</td>
+			<td class="content">0</td>
+			<td class="content">0</td>
+		</tr>
+			<tr class="collapsed" id="issue5" bgcolor="#ffffff"><td colspan="7">
+			</td></tr>
+		<tr class="row">
+		   <td class="content"><IMG alt="expand/collapse section" height="11" src="_ConversionReport_Files/ConversionReport_Blank.gif" width="9">&nbsp;node.cs</td>
+			<td class="content">node.java</td>
+			<td class="content">
+		Converted</td>	<td class="content">0</td>
+			<td class="content">0</td>
+			<td class="content">0</td>
+		</tr>
+			<tr class="collapsed" id="issue6" bgcolor="#ffffff"><td colspan="7">
+			</td></tr>
+		<tr class="row">
+		   <td class="content"><IMG alt="expand/collapse section" height="11" src="_ConversionReport_Files/ConversionReport_Blank.gif" width="9">&nbsp;Partition_info.cs</td>
+			<td class="content">Partition_info.java</td>
+			<td class="content">
+		Converted</td>	<td class="content">0</td>
+			<td class="content">0</td>
+			<td class="content">0</td>
+		</tr>
+			<tr class="collapsed" id="issue7" bgcolor="#ffffff"><td colspan="7">
+			</td></tr>
+		<tr class="row">
+			<td class="content"><a href="javascript:changepic();" child="issue8"><IMG border=0 alt="expand/collapse section" class="expandable" height="11" src="_ConversionReport_Files/ConversionReport_Plus.gif" width="9" child="issue8"></a>&nbsp;QuitDialog.cs</td>
+			<td class="content">QuitDialog.java</td>
+			<td class="content">
+		Converted with issues</td>	<td class="content">17</td>
+			<td class="content">0</td>
+			<td class="content">17</td>
+		</tr>
+			<tr class="collapsed" id="issue8" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="4" class="content">Conversion Issues for QuitDialog.QuitDialog(java.awt.Frame,boolean):</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1043'>The equivalent in .NET for field 'java.awt.Label.CENTER' may return a different value.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtDialogDialog_javaawtFrame_boolean'>Constructor 'java.awt.Dialog.Dialog' was converted to 'SupportClass.DialogSupport.SetDialog' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtComponentsetSize_int_int'>Method 'java.awt.Component.setSize' was converted to 'System.Windows.Forms.Control.Size' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">5</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">6</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">7</td><td class="issuecontent" width="15%">Compile Error</td><td class="issuecontent" width="5%">1</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1000_javaawtContainersetLayout_javaawtLayoutManager'>Method 'java.awt.Container.setLayout' was not converted.</a></td></tr>
+				</table></td></tr>
+				<tr><td colspan="4" class="content">Conversion Issues for QuitDialog.addNotify():</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtComponentsetLocation_javaawtPoint'>Method 'java.awt.Component.setLocation' was converted to 'System.Windows.Forms.Control.Location' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtComponentsetSize_int_int'>Method 'java.awt.Component.setSize' was converted to 'System.Windows.Forms.Control.Size' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" width="15%">Compile Error</td><td class="issuecontent" width="5%">1</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1000_javaawtDialogaddNotify'>Method 'java.awt.Dialog.addNotify' was not converted.</a></td></tr>
+				</table></td></tr>
+				<tr><td colspan="4" class="content">Conversion Issues for QuitDialog.show():</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtComponentmove_int_int'>Method 'java.awt.Component.move' was converted to 'System.Windows.Forms.Control.Location' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtDialogshow'>Method 'java.awt.Dialog.show' was converted to 'System.Windows.Forms.Form.ShowDialog' which has a different behavior.</a></td></tr>
+				</table></td></tr>
+				</table>
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="4" class="content">Conversion Issues for QuitDialog.SymAction.yesButton_Clicked(java.awt.event.ActionEvent):</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">Compile Error</td><td class="issuecontent" width="5%">1</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1000_javaawtEventQueue'>Method 'java.awt.EventQueue.postEvent' was not converted.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">Compile Error</td><td class="issuecontent" width="5%">1</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1000_javaawtToolkit'>Method 'java.awt.Toolkit.getSystemEventQueue' was not converted.</a></td></tr>
+						<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" width="15%">Compile Error</td><td class="issuecontent" width="5%">1</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1000_javaawtToolkit'>Method 'java.awt.Toolkit.getDefaultToolkit' was not converted.</a></td></tr>
+				</table></td></tr>
+				<tr><td colspan="4" class="content">Conversion Issues for QuitDialog.SymAction.Declarations:</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtFrame'>Class 'java.awt.Frame' was converted to 'System.Windows.Forms.Form' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtFrame'>Class 'java.awt.Frame' was converted to 'System.Windows.Forms.Form' which has a different behavior.</a></td></tr>
+				</table></td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><a href="javascript:changepic();" child="issue9"><IMG border=0 alt="expand/collapse section" class="expandable" height="11" src="_ConversionReport_Files/ConversionReport_Plus.gif" width="9" child="issue9"></a>&nbsp;RECT.cs</td>
+			<td class="content">RECT.java</td>
+			<td class="content">
+		Converted with issues</td>	<td class="content">6</td>
+			<td class="content">0</td>
+			<td class="content">6</td>
+		</tr>
+			<tr class="collapsed" id="issue9" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="4" class="content">Conversion Issues for RECT.RECT():</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073'>Method 'java.util.Random.nextInt' was converted to 'System.Random.Next' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073'>Method 'java.util.Random.nextInt' was converted to 'System.Random.Next' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073'>Method 'java.util.Random.nextInt' was converted to 'System.Random.Next' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073'>Method 'java.util.Random.nextInt' was converted to 'System.Random.Next' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">5</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073'>Method 'java.util.Random.nextInt' was converted to 'System.Random.Next' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">6</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1092'>The differences in the expected value  of parameters for constructor 'java.util.Random.Random'  may cause compilation errors. </a></td></tr>
+				</table></td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+		   <td class="content"><IMG alt="expand/collapse section" height="11" src="_ConversionReport_Files/ConversionReport_Blank.gif" width="9">&nbsp;RPlus.cs</td>
+			<td class="content">RPlus.java</td>
+			<td class="content">
+		Converted</td>	<td class="content">0</td>
+			<td class="content">0</td>
+			<td class="content">0</td>
+		</tr>
+			<tr class="collapsed" id="issue10" bgcolor="#ffffff"><td colspan="7">
+			</td></tr>
+		<tr class="row">
+		   <td class="content"><IMG alt="expand/collapse section" height="11" src="_ConversionReport_Files/ConversionReport_Blank.gif" width="9">&nbsp;Split_info.cs</td>
+			<td class="content">Split_info.java</td>
+			<td class="content">
+		Converted</td>	<td class="content">0</td>
+			<td class="content">0</td>
+			<td class="content">0</td>
+		</tr>
+			<tr class="collapsed" id="issue11" bgcolor="#ffffff"><td colspan="7">
+			</td></tr>
+		<tr class="row">
+		   <td class="content"><IMG alt="expand/collapse section" height="11" src="_ConversionReport_Files/ConversionReport_Blank.gif" width="9">&nbsp;TEST.cs</td>
+			<td class="content">TEST.java</td>
+			<td class="content">
+		Converted</td>	<td class="content">0</td>
+			<td class="content">0</td>
+			<td class="content">0</td>
+		</tr>
+			<tr class="collapsed" id="issue12" bgcolor="#ffffff"><td colspan="7">
+			</td></tr>
+		<tr class="row">
+			<td class="content"><a href="javascript:changepic();" child="issue13"><IMG border=0 alt="expand/collapse section" class="expandable" height="11" src="_ConversionReport_Files/ConversionReport_Plus.gif" width="9" child="issue13"></a>&nbsp;TEST2.cs</td>
+			<td class="content">TEST2.java</td>
+			<td class="content">
+		Converted with issues</td>	<td class="content">3</td>
+			<td class="content">0</td>
+			<td class="content">3</td>
+		</tr>
+			<tr class="collapsed" id="issue13" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="4" class="content">Conversion Issues for TEST2.main(java.lang.String[]):</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073'>Constructor 'java.io.FileReader.FileReader' was converted to 'System.IO.StreamReader' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1092'>The differences in the expected value  of parameters for constructor 'java.io.BufferedReader.BufferedReader'  may cause compilation errors. </a></td></tr>
+				</table></td></tr>
+				<tr><td colspan="4" class="content">Conversion Issues for TEST2.Declarations:</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'java.util.Scanner' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+				</table></td></tr>
+				</table>
+			</td></tr>
+		<tr valign="top">
+			<td class="foot">14 File(s)</td>
+			<td class="foot">&nbsp;</td>
+			<td class="foot"></td>
+			<td class="foot">96</td>
+			<td class="foot">3</td>
+			<td class="foot">99</td>
+		</tr>
+		</table>
+		<p class="help">
+		</p>
+				<H3>Conversion Settings</H3>
+					<p><SPAN class="note">
+					<b>LogFile: </b> R+tree.xml<br>
+					<b>OutputDir: </b> C:\Users\Mobile1\Downloads\Java&nbsp;R+&nbsp;tree\R+tree.NET<br>
+					<b>ProjectName: </b> R+tree<br>
+					<b>ProjectPath: </b> C:\Users\Mobile1\Downloads\Java&nbsp;R+&nbsp;tree<br>
+					<b>StartTime: </b> Friday,&nbsp;May&nbsp;27,&nbsp;2011&nbsp;10:05:14
+					</span>
+				</p>
+	</body>
+</html>
