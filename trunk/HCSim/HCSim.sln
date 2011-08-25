@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{011AE1F2-FFF1-4F87-A028-8901C65EA644}"
+	ProjectSection(SolutionItems) = preProject
+		HCSim.vsmdi = HCSim.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HCSim", "HCSim\HCSim.csproj", "{3434F4D7-C0BE-4DED-A4C3-1550BC4B33E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryEvaluator", "..\QueryEvaluator\QueryEvaluator.csproj", "{37A832E8-E8D6-4AD4-8A42-514BDABCAEC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTree", "..\RTree\RTree\RTree.csproj", "{4085BA67-60D7-4679-886E-457AAF37EC7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HilbertTransform", "..\..\..\Documents\Visual Studio 2008\Projects\HilbertTransform\HilbertTransform\HilbertTransform.csproj", "{1CCC9EAD-C690-4E4D-AC39-5248BA74CFF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryEvaluatorTest", "..\QueryEvaluatorTest\QueryEvaluatorTest.csproj", "{FBFDB1CF-DDF8-46BB-A4FE-03405EDC5E37}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = HCSim.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3434F4D7-C0BE-4DED-A4C3-1550BC4B33E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3434F4D7-C0BE-4DED-A4C3-1550BC4B33E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3434F4D7-C0BE-4DED-A4C3-1550BC4B33E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3434F4D7-C0BE-4DED-A4C3-1550BC4B33E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37A832E8-E8D6-4AD4-8A42-514BDABCAEC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37A832E8-E8D6-4AD4-8A42-514BDABCAEC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37A832E8-E8D6-4AD4-8A42-514BDABCAEC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37A832E8-E8D6-4AD4-8A42-514BDABCAEC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4085BA67-60D7-4679-886E-457AAF37EC7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4085BA67-60D7-4679-886E-457AAF37EC7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4085BA67-60D7-4679-886E-457AAF37EC7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4085BA67-60D7-4679-886E-457AAF37EC7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CCC9EAD-C690-4E4D-AC39-5248BA74CFF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CCC9EAD-C690-4E4D-AC39-5248BA74CFF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CCC9EAD-C690-4E4D-AC39-5248BA74CFF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CCC9EAD-C690-4E4D-AC39-5248BA74CFF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBFDB1CF-DDF8-46BB-A4FE-03405EDC5E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBFDB1CF-DDF8-46BB-A4FE-03405EDC5E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBFDB1CF-DDF8-46BB-A4FE-03405EDC5E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBFDB1CF-DDF8-46BB-A4FE-03405EDC5E37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

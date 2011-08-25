@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="UnifiedSim">
+</Property><Property Name="Solution File" Value="C:\Users\wangchj\Desktop\RDF_LBS_Sim\UnifiedSim\UnifiedSim.sln">
+</Property><Property Name="Date" Value="Saturday, May 14, 2011">
+</Property><Property Name="Time" Value="13:21 PM">
+</Property></Properties><Event ErrorLevel="0" Project="UnifiedSim" Source="UnifiedSim\UnifiedSim.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="UnifiedSim" Source="UnifiedSim\UnifiedSim.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="QueryGenerator" Source="..\QueryGenerator\QueryGenerator\QueryGenerator.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="QueryGenerator" Source="..\QueryGenerator\QueryGenerator\QueryGenerator.csproj" Description="Converted">
+</Event><Event ErrorLevel="2" Project="HilbertTransform" Source="..\..\..\Documents\Visual Studio 2008\Projects\HilbertTransform\HilbertTransform\HilbertTransform.csproj" Description="Unable to open project file to perform upgrade.  ">
+</Event><Event ErrorLevel="0" Project="QueryEvaluator" Source="..\QueryEvaluator\QueryEvaluator.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="QueryEvaluator" Source="..\QueryEvaluator\QueryEvaluator.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="ResultReporting" Source="..\ResultReporting\ResultReporting.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ResultReporting" Source="..\ResultReporting\ResultReporting.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="RTree" Source="..\RTree\RTree\RTree.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="RTree" Source="..\RTree\RTree\RTree.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="QueryEvaluatorKnn" Source="..\QueryEvaluatorKnn\QueryEvaluatorKnn.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="QueryEvaluatorKnn" Source="..\QueryEvaluatorKnn\QueryEvaluatorKnn.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UnifiedSim.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="UnifiedSim.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="UnifiedSim" Source="UnifiedSim\UnifiedSim.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="QueryGenerator" Source="..\QueryGenerator\QueryGenerator\QueryGenerator.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ResultReporting" Source="..\ResultReporting\ResultReporting.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="QueryEvaluatorKnn" Source="..\QueryEvaluatorKnn\QueryEvaluatorKnn.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
