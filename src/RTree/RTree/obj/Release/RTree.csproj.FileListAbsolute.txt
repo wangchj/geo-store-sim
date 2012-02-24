@@ -1,6 +1,0 @@
-C:\Users\wangchj\Desktop\RDF_LBS_Sim\RTree\RTree\bin\Release\RTree.dll
-C:\Users\wangchj\Desktop\RDF_LBS_Sim\RTree\RTree\bin\Release\RTree.pdb
-C:\Users\wangchj\Desktop\RDF_LBS_Sim\RTree\RTree\bin\Release\log4net.dll
-C:\Users\wangchj\Desktop\RDF_LBS_Sim\RTree\RTree\obj\Release\ResolveAssemblyReference.cache
-C:\Users\wangchj\Desktop\RDF_LBS_Sim\RTree\RTree\obj\Release\RTree.dll
-C:\Users\wangchj\Desktop\RDF_LBS_Sim\RTree\RTree\obj\Release\RTree.pdb

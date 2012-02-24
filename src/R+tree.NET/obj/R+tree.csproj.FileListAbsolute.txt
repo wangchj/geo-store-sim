@@ -1,5 +1,0 @@
-C:\Users\Mobile1\Downloads\Java R+ tree\R+tree.NET\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Mobile1\Downloads\Java R+ tree\R+tree.NET\obj\Debug\R+tree.pdb
-C:\Users\Mobile1\Downloads\Java R+ tree\R+tree.NET\R+tree.pdb
-C:\Users\Mobile1\Downloads\Java R+ tree\R+tree.NET\obj\Debug\R+tree.exe
-C:\Users\Mobile1\Downloads\Java R+ tree\R+tree.NET\R+tree.exe
