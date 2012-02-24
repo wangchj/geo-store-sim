@@ -1,5 +1,0 @@
-C:\Users\wangchj\Desktop\RDF_LBS_Sim\ResultReporting\bin\Release\ResultReporting.dll
-C:\Users\wangchj\Desktop\RDF_LBS_Sim\ResultReporting\bin\Release\ResultReporting.pdb
-C:\Users\wangchj\Desktop\RDF_LBS_Sim\ResultReporting\obj\Release\ResolveAssemblyReference.cache
-C:\Users\wangchj\Desktop\RDF_LBS_Sim\ResultReporting\obj\Release\ResultReporting.dll
-C:\Users\wangchj\Desktop\RDF_LBS_Sim\ResultReporting\obj\Release\ResultReporting.pdb

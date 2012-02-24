@@ -1,5 +1,0 @@
-C:\Users\wangchj\Desktop\RDF_LBS_Sim\R+tree.NET\obj\Debug\R+tree.exe
-C:\Users\wangchj\Desktop\RDF_LBS_Sim\R+tree.NET\obj\Debug\R+tree.pdb
-C:\Users\wangchj\Desktop\RDF_LBS_Sim\R+tree.NET\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\wangchj\Desktop\RDF_LBS_Sim\R+tree.NET\R+tree.exe
-C:\Users\wangchj\Desktop\RDF_LBS_Sim\R+tree.NET\R+tree.pdb
